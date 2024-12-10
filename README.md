@@ -1,6 +1,6 @@
 # aoc-2024
 
-My solutions to AoC 2024 in Python.
+My solutions to [AoC 2024](https://adventofcode.com/2024/) in Python.
 
 ## Note
 
