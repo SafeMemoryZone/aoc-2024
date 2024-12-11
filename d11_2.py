@@ -13,7 +13,7 @@ with open("inp", "r") as inp:
         else:
             curr_state[int(x)] = 1
 
-    for _ in range(25):
+    for _ in range(75):
         next_state = {}
 
         for key, value in curr_state.items():
