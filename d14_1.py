@@ -23,8 +23,6 @@ with open("inp", "r") as inp:
         pos_x = (init_pos_x + vel_x * 100) % 101
         pos_y = (init_pos_y + vel_y * 100) % 103
 
-        print(pos_x, pos_y)
-
         if pos_x > 50 and pos_y > 51:
             q1 += 1
         elif pos_x < 50 and pos_y > 51:
@@ -34,5 +32,4 @@ with open("inp", "r") as inp:
         elif pos_x > 50 and pos_y < 51:
             q4 += 1
 
-    print(q1, q2, q3, q4)
     print(q1 * q2 * q3 * q4)
