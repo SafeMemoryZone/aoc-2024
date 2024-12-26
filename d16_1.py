@@ -12,8 +12,6 @@ def find_cost(grid):
                 heapq.heappush(distances, (0, row_idx, col_idx, (0, 1)))
             elif c == "E":
                 end_pos = (row_idx, col_idx)
-            elif c != ".":
-                heapq.heappush(distances, (float("inf"), row_idx, col_idx, None))
 
     visited = set()
 
